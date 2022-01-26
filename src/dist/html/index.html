@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="dist/css/commonmark.css" />
+    <link rel="stylesheet" href="dist/css/docward.css" />
+</head>
+
+<body>
+    <table border="1">
+        <td width="33%" id="tree"></td>
+        <td id="page"></td>
+    </table>
+</body>
+
+<script src="dist/js/showdown@1.9.1/showdown.min.js"></script>
+<script src="dist/js/docward.js"></script>
+<script>
+    get_topics(document.getElementById("tree"));
+</script>
